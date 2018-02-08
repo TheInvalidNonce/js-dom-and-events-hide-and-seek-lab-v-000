@@ -5,3 +5,7 @@ const getFirstSelector = (selector) => {
 const nestedTarget = () => {
   return document.getElementById('nested')
 }
+
+const increaseRankBy = (n) => {
+  
+}
