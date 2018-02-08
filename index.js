@@ -9,7 +9,7 @@ const nestedTarget = () => {
 const increaseRankBy = (n) => {
   const items = document.querySelectorAll('ul.ranked-list li')
   
-  for (let i in items) {
+  for (let i of items) {
     return parseInt(i += n).innerHTML
   }
 }
