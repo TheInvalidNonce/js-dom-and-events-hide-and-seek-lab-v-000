@@ -10,6 +10,6 @@ const increaseRankBy = (n) => {
   const items = document.querySelectorAll('ul.ranked-list li')
   
   for (let i in items) {
-    items[i].innerHTML = parseInt(items[i].innerHTML, 10) + n
+    items[i].innerHTML = parseInt(items[i].innerHTML) + n
   }
 }
