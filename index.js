@@ -13,3 +13,7 @@ const increaseRankBy = (n) => {
     items[i].innerHTML = parseInt(items[i].innerHTML) + n
   }
 }
+
+const deepestChild = () => {
+  return document.querySelector('div#grand-node').children
+}
